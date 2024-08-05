@@ -35,7 +35,7 @@ function App() {
     <>
       <div
         className="w-full max-w-xl mx-auto shadow-lg rounded-lg px-4
-      m-8 text-orange-500 bg-gray-600 "
+      m-8 text-center  bg-gray-600 "
       >
         Password Genereator
         <div className="flex shadow-2xl bg-slate-500 rounded-lg overflow-hidden mb-4">
@@ -89,7 +89,7 @@ function App() {
                 setcharacter((prev) => !prev);
               }}
             />
-            <label className="text-sm ">Characters</label>
+            <label>Characters</label>
           </div>
         </div>
       </div>
